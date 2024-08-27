@@ -1,0 +1,97 @@
+body, html {
+    height: 100%;
+    color: hsl(223, 47%, 23%);
+    font-family: Red Hat Display, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(225, 100%, 94%); /* Light blue background color */
+}
+
+body {
+    background-image: url('images/pattern-background-desktop.svg');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: white;
+    width: 30vw;
+    max-width: 450px; /* Added max-width for better responsiveness */
+    text-align: center; 
+    border-radius: 25px;
+    overflow: hidden;
+}
+.parts {
+    margin: 35px;
+}
+
+.image {
+    max-width: 100%;
+    display: block;
+}
+
+.third {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.one {
+    display: flex;
+}
+.right {
+    margin-left: 15px;
+    text-align: left;
+
+    h4, p {
+        /* border: 2px solid yellow; */
+        margin: 0;
+        height: 20px;
+    }
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+}
+button:hover  {
+    background-color: hsl(223, 47%, 23%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.sect {
+    transition: color 0.3s ease;
+    color: hsl(224, 23%, 55%);
+}
+.sect:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+    font-weight: bolder;
+}
+.two {
+
+    p {
+    color: hsl(245, 75%, 52%);
+    font-size: 0.8em;
+    transition: color 0.3s ease;
+    }
+
+    p:hover {
+        color: hsl(224, 23%, 55%);
+    }
+}
